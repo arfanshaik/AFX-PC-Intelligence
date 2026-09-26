@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090c" />
+    <meta name="description" content="Meet Arfan in an interactive 3D PC assistant. Build, understand, compare and upgrade PCs with AFX PC Intelligence by Shaik Arfan." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>AFX PC Intelligence — Meet Arfan</title>
+  </head>
+  <body>
+    <div id="root"><p id="startup-status" style="padding:40px;font:16px/1.6 Arial,sans-serif">Opening AFX…</p></div>
+    <script>
+      function showStartupError(message) {
+        const status=document.getElementById('startup-status');
+        if(!status)return;
+        status.setAttribute('role','alert');
+        status.textContent=message+' ';
+        const link=document.createElement('a');
+        link.href=location.pathname.includes('/dist/')?'../AFX-Preview.html':'./AFX-Preview.html';
+        link.textContent='Open the standalone AFX preview';
+        status.append(link);
+      }
+      if(location.protocol==='file:')showStartupError('This developer page needs a server. The standalone preview opens directly.');
+      window.addEventListener('error',event=>showStartupError(event.message||'A required app file could not load.'));
+    </script>
+    <noscript>Enable JavaScript to use AFX.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
