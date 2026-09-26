@@ -1,0 +1,37 @@
+// Retailer listing snapshots collected on 25 September 2026, not a live inventory feed.
+// Product images are bundled from the linked retailer listings. See LAPTOP-SOURCES.md.
+export const laptopCatalogueDate = '2026-09-25';
+export const laptops = [
+  {id:'acer-chromebook',brand:'Acer',name:'Chromebook 315',model:'CB315-7H',cpu:'Intel Core 3 N355',ram:4,storage:'128GB eMMC',screen:'15.6-inch',os:'ChromeOS',category:'Chromebook',price:35900,image:'/assets/laptops/acer-chromebook.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/l/d/h/-original-imahpr3k7cs9hfug.jpeg?q=80',flipkart:'https://www.flipkart.com/acer-chromebook-intel-core-3-n355-4-gb-128-gb-emmc-storage-chrome-os-cb315-7h/p/itm5f10c1308fde7?pid=COMHZZG779TWKTQC'},
+  {id:'asus-tuf-f15',brand:'ASUS',name:'TUF Gaming F15',model:'FX506HF-HN075W',cpu:'Intel Core i5-11260H',ram:8,storage:'512GB SSD',screen:'15.6-inch · 144Hz',os:'Windows 11',gpu:'RTX 2050 · 4GB',category:'Gaming',price:48990,image:'/assets/laptops/asus-tuf-f15.png',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/i/z/0/-enriched-transparent-original-imahg53upqg6u2b5.png?q=80',flipkart:'https://www.flipkart.com/hi/asus-tuf-gaming-f15-ai-powered-intel-core-i5-11th-gen-11260h-8-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-2050-144-hz-70-tgp-fx506hf-hn075w-laptop/p/itmbd858702e076f?pid=COMGS2AJESZQCMRT'},
+  {id:'asus-vivobook-14',brand:'ASUS',name:'Vivobook 14',model:'X1404VA-EB1923WS',cpu:'Intel Core i3-1315U',ram:8,storage:'512GB SSD',screen:'14-inch',os:'Windows 11',category:'Everyday',price:49990,availability:'out-of-stock',image:'/assets/laptops/asus-vivobook-14.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/2/j/v/-original-imahpqb2aunkqbzu.jpeg?q=80',flipkart:'https://www.flipkart.com/asus-vivobook-14-2026-intel-core-i3-13th-gen-1315u-8-gb-512-gb-ssd-windows-11-home-x1404va-eb1923ws-thin-light-laptop/p/itm08430baeb376a'},
+  {id:'acer-aspire-14',brand:'Acer',name:'Aspire 14',model:'SFG14-71-58UB',cpu:'Intel Core i5-13500H',ram:16,storage:'512GB SSD',screen:'14-inch',os:'Windows 11',category:'Work & study',price:49990,cached:true,image:'/assets/laptops/acer-aspire-14.png',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/g/l/u/-enriched-transparent-original-imahg5fxzqngdhnf.png?q=80',flipkart:'https://www.flipkart.com/acer-aspire-14-backlit-keyboard-intel-core-i5-13th-gen-13500h-16-gb-512-gb-ssd-windows-11-home-sfg14-71-58ub-thin-light-laptop/p/itm0a080194d6dd1?pid=COMGZKGGAHZBA3WY'},
+  {id:'dell-inspiron-5440',brand:'Dell',name:'Inspiron 5440',model:'Inspiron 5440 · Core 3',cpu:'Intel Core 3 100U',ram:8,storage:'512GB SSD',screen:'14-inch',os:'Windows 11',category:'Everyday',price:54980,image:'/assets/laptops/dell-inspiron-5440.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/6/8/p/inspiron-5440-thin-and-light-laptop-dell-original-imahjsfmjxbvc7zr.jpeg?q=80',flipkart:'https://www.flipkart.com/dell-inspiron-5440-2026-i3-14th-gen-intel-core-3-gen-100u-8-gb-512-gb-ssd-windows-11-home-thin-light-laptop/p/itm0587042bee5d3?pid=COMHJSFMJDAUGGRG'},
+  {id:'msi-modern-15',brand:'MSI',name:'Modern 15',model:'B13M-288IN',cpu:'Intel Core i7-1355U',ram:16,storage:'512GB SSD',screen:'15.6-inch',os:'Windows 11',category:'Work & study',price:64990,availability:'out-of-stock',image:'/assets/laptops/msi-modern-15.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/c/u/f/-original-imahg5fyvtm9hehx.jpeg?q=80',flipkart:'https://www.flipkart.com/msi-modern-15-intel-core-i7-13th-gen-1355u-16-gb-512-gb-ssd-windows-11-home-b13m-288in-thin-light-laptop/p/itme125a89adb5a0?pid=COMGMV6VGQXP9MDH'},
+  {id:'hp-victus-ryzen',brand:'HP',name:'Victus 15 · Ryzen',model:'15-fb0134AX',cpu:'AMD Ryzen 5 5600H',ram:16,storage:'512GB SSD',screen:'15.6-inch',os:'Windows 11',gpu:'Radeon RX 6500M · 4GB',category:'Gaming',price:70224,cached:true,image:'/assets/laptops/hp-victus-intel.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/b/n/j/-original-imahg5fxbg4gg7gr.jpeg?q=80',flipkart:'https://www.flipkart.com/hp-victus-intel-core-i7-12th-gen-12450h-16-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-2050-15-fa1227tx-gaming-laptop/p/itm2c3283b1da319'},
+  {id:'lenovo-ideapad-slim-3',brand:'Lenovo',name:'IdeaPad Slim 3',model:'15AMN8 · Ryzen 5 40',cpu:'AMD Ryzen 5 40',ram:16,storage:'512GB SSD',screen:'15.6-inch',os:'Windows 11',category:'Everyday',price:75490,image:'/assets/laptops/lenovo-ideapad-slim-3.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/9/h/m/-original-imahrbzttdbkakzq.jpeg?q=80',flipkart:'https://www.flipkart.com/lenovo-ideapad-slim-3-1year-adp-amd-ryzen-5-40-16-gb-512-gb-ssd-windows-11-home-15amn8-laptop/p/itmab007bf5f82a8?pid=COMHHNNZKTNAND2A'},
+  {id:'acer-nitro-v',brand:'Acer',name:'Nitro V',model:'ANV15-51 · RTX 3050',cpu:'Intel Core i5-13420H',ram:16,storage:'512GB SSD',screen:'15.6-inch',os:'Windows 11',gpu:'RTX 3050 · 6GB',category:'Gaming',price:89990,image:'/assets/laptops/acer-nitro-v.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/q/g/z/-original-imahcyp7n3yyvxyr.jpeg?q=80',flipkart:'https://www.flipkart.com/acer-nitro-v-intel-core-i5-13th-gen-13420h-16-gb-512-gb-ssd-windows-11-home-6-graphics-nvidia-geforce-rtx-3050-anv15-51-gaming-laptop/p/itm771bcbdbde25c?pid=COMGUHTACKG4UWSZ'},
+  {id:'samsung-galaxy-book6',brand:'Samsung',name:'Galaxy Book6',model:'NP760VJG',cpu:'Intel Core Ultra 7 355',ram:16,storage:'512GB SSD',screen:'16-inch',os:'Windows 11',category:'Premium',price:127990,image:'/assets/laptops/samsung-galaxy-book6.jpg',imageSource:'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/4/e/o/-original-imahhvjrydupk3w7.jpeg?q=80',flipkart:'https://www.flipkart.com/samsung-galaxy-book6-intel-core-ultra-7-series-3-355-16-gb-512-gb-ssd-windows-11-home-np760vjg-thin-light-laptop/p/itm92d38d5395681?pid=COMHHPK3WKXKUDVA'}
+];
+
+export function storeSearch(store, query = '') {
+  const term = (String(query).trim().slice(0, 180) || 'laptops');
+  return store === 'amazon'
+    ? 'https://www.amazon.in/s?' + new URLSearchParams({k:term}).toString()
+    : 'https://www.flipkart.com/search?' + new URLSearchParams({q:term}).toString();
+}
+
+export function laptopSearchTerm(laptop) {
+  return `${laptop.brand} ${laptop.name} ${laptop.model} ${laptop.ram}GB ${laptop.storage}`.replace(/ · | \/ /g, ' ');
+}
+
+export function filterLaptops({query='',brand='all',category='all',budget=0,sort='price-asc',hideUnavailable=false}={}) {
+  const terms=String(query).toLowerCase().trim().split(/\s+/).filter(Boolean);
+  const amount=Number(budget);
+  const result=laptops.filter(laptop=>{
+    const haystack=[laptop.brand,laptop.name,laptop.model,laptop.cpu,laptop.ram+'GB',laptop.storage,laptop.gpu,laptop.os,laptop.category,'laptop'].join(' ').toLowerCase();
+    return terms.every(term=>haystack.includes(term)) && (brand==='all'||laptop.brand===brand) && (category==='all'||laptop.category===category)
+      && (!(amount>0)||laptop.price!==null&&laptop.price<=amount) && (!hideUnavailable||laptop.availability!=='out-of-stock');
+  });
+  return result.sort((a,b)=>sort==='price-desc'?(b.price??-Infinity)-(a.price??-Infinity):sort==='name'?`${a.brand} ${a.name}`.localeCompare(`${b.brand} ${b.name}`):(a.price??Infinity)-(b.price??Infinity));
+}
