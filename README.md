@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="assets/preview.svg" alt="AFX-PC-Intelligence preview" width="100%" />
-</p>
-
-<p align="center">
-  <img src="assets/features.svg" alt="AFX-PC-Intelligence features" width="100%" />
+  <img src="assets/website-preview.svg" alt="AFX PC Intelligence website preview" width="100%" />
 </p>
 
 # AFX PC Intelligence
