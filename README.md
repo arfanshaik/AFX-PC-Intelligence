@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/preview.svg" alt="AFX-PC-Intelligence preview" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/features.svg" alt="AFX-PC-Intelligence features" width="100%" />
+</p>
+
 # AFX PC Intelligence
 
 An interactive PC assistant created by Shaik Arfan for a college hackathon.
